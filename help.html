@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="help.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <title>Library Management System - Help</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 style="color: blue"><i class="fa fa-book" aria-hidden="true"></i>Library</h1>
+        <ul class="">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../home/home.html" style="color: black;"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../help/help.html" style="color: black;"><strong>Help</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../about us/about.html" style="color: black;"><strong>About</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../signup/signup.html"style="color: black;"><strong>Account</strong></a>
+          </li>
+        </ul>
+    </nav>
+    <header>
+       <h1>Library Management System - Help</h1>
+    </header>
+
+   <div class="container1">
+        <ul>
+            <li><a href="#overview" onclick="highlightSection('overview')">Overview</a></li>
+            <li><a href="#add-book" onclick="highlightSection('add-book')">Adding a Book</a></li>
+            <li><a href="#view-books" onclick="highlightSection('view-books')">Viewing Books</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>
+                Welcome to the Library Management System help page. This system allows you to manage your library by adding and viewing books.
+            </p>
+        </section>
+
+        <section id="add-book">
+            <h2>Adding a Book</h2>
+            <p>
+                To add a new book, navigate to the "Add Book" section on the main page. Enter the title and author of the book in the respective fields and click the "Add Book" button.
+            </p>
+        </section>
+
+        <section id="view-books">
+            <h2>Viewing Books</h2>
+            <p>
+                The added books will be displayed in the "Book List" section. Each book entry includes the title and author. You can scroll through the list to view all the added books.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color: white;">&copy; 2024 Library Management System</p>
+    </footer>
+
+    <script src="help.js"></script>
+</body>
+</html>

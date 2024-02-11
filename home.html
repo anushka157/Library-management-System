@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Library Management System</title>
+</head>
+<body>
+  <nav class="navbar">
+    <h1 style="color:blue"><i class="fa fa-book" aria-hidden="true"></i>Library</h1>
+    <ul class="">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="../home/home.html"><strong>Home</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="../help/help.html"><strong>Help</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="../about us/about.html"><strong>About</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="../signup/signup.html"><strong>Account</strong></a>
+      </li>
+    </ul>
+</nav>
+<div class="container2">
+
+  <p>
+    <strong>Welcome to the Our Library!</strong>
+</p>
+</div>
+    <div class="container1">
+        <h1>Library Management System</h1>
+        
+    </div>
+
+    <div class="container">
+        <form id="book-form">
+            <label for="title"  style="color: white;"><h1>Book Title:</h1></label>
+            <input type="text" id="title" required>
+
+            <label for="author" style="color:white;"><h1>Author:</h1></label>
+            <input type="text" id="author" required>
+
+            <button type="button" onclick="addBook()">Add Book</button>
+        </form>
+
+        <div id="book-list"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Library Management System</p>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>

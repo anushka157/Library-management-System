@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Library-Account</title>
+</head>
+<body>
+    <div class="form-div">
+        <h1 style="color: rgb(200, 206, 200)">SIGN UP</h1>
+        <form id="sign-up_form">
+        <div class="mb-3">
+            <label for="Entername" class="form-label"><h5>Enter Name:</h5></label>
+            <input
+              type="text"
+              class="form-control"
+              id="Entername"
+              required
+              name="Entername"
+             
+            />
+          </div>
+        
+
+          <div class="mb-3">
+            <label for="phone_no" class="form-label"><h5>Contact*:</h5></label>
+            <input
+              type="text"
+              class="form-control"
+              id="phone_no"
+              required
+              name="phone_no"
+             
+            />
+  
+            <div id="phone_no_err" class="form-text"></div>
+          </div>
+
+        
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            ><h5>Email Address:</h5></label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+           required
+            name="email"
+          />
+          <div class="mb-3">
+            <label for="password" class="form-label"
+              ><h5>Enter Password*:</h5></label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              required
+              name="user_password"
+           
+            />
+  
+            <div id="password_err" class="form-text"></div>
+          </div>
+        </div>
+        <button type="submit" value="submit" class="btn btn-primary">
+            Submit
+          </button>
+        </form>
+        <h5 class="box">
+            Already, have an account?
+            <a id="sign-up" href="../login/login.html" style="text-decoration: none; color: rgb(161, 161, 231);"
+              >Login</a
+            >
+          </h5>
+          <h5 style="color: rgb(4, 15, 15);"> 
+            
+            <a
+              id="sign-up"
+              href="../home/home.html"
+             style="color: rgb(127, 127, 238); font-size: 20px;"
+              >Go To Homepage</a
+            >
+          </h5>
+        </div>
+</body>
+</html>
